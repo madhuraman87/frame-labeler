@@ -1,0 +1,41 @@
+.buttons-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+  
+.button {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+  
+.button:disabled {
+    opacity: 0.6;
+    background-color: gray;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.frame-viewer-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 50px;
+    margin-bottom: 15px;
+}
+
+.bounding-box-list-div {
+    border: 1px solid black;
+}
